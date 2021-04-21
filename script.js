@@ -4,7 +4,7 @@ app.key = `4tmTuB7uItPxIKkPMwNyQCA97snlBc5K`;
 
 app.getImages = function(query) {
     $.ajax({
-        url: `http://api.giphy.com/v1/gifs/search`,
+        url: `https://api.giphy.com/v1/gifs/search`,
         method: 'GET',
         dataType: 'json',
         data: {
